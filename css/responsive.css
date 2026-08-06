@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+  .container {
+    width: min(100% - 1.5rem, var(--container-width));
+  }
+
+  .project-start {
+    min-height: 70vh;
+  }
+}

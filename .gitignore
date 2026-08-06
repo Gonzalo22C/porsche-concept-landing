@@ -1,0 +1,21 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Configuración local de editores
+.vscode/
+.idea/
+
+# Archivos temporales
+*.log
+*.tmp
+*.temp
+
+# Dependencias futuras
+node_modules/
+
+# Variables de entorno
+.env
+.env.local
+.env.production
