@@ -1,4 +1,32 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #111111;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+header{
+  padding: 1.5rem 0;
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*body {
   background-color: var(--color-background);
   color: var(--color-text-light);
   font-family: var(--font-primary);
@@ -53,4 +81,4 @@ body {
   color: rgb(255 255 255 / 60%);
   font-size: 0.875rem;
   text-align: center;
-}
+}*/
