@@ -26,6 +26,25 @@ header .container{
   justify-content: space-between;
   align-items: center;
 }
+
+.header__nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.header__nav a{
+    text-decoration: none;
+    color: #111111;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.header__nav a:hover{
+    color: #666666;
+}
+
 /*body {
   background-color: var(--color-background);
   color: var(--color-text-light);
