@@ -21,6 +21,14 @@ header{
   padding: 1.5rem 0;
 }
 
+.header__brand{
+    text-decoration: none;
+    color: #111111;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+}
+
 header .container{
   display: flex;
   justify-content: space-between;
@@ -44,60 +52,3 @@ header .container{
 .header__nav a:hover{
     color: #666666;
 }
-
-/*body {
-  background-color: var(--color-background);
-  color: var(--color-text-light);
-  font-family: var(--font-primary);
-  line-height: 1.5;
-}
-
-.container {
-  width: min(100% - 2rem, var(--container-width));
-  margin-inline: auto;
-}
-
-.site-header {
-  padding-block: var(--space-md);
-  border-bottom: 1px solid rgb(255 255 255 / 15%);
-}
-
-.site-logo {
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.project-start {
-  display: grid;
-  min-height: 75vh;
-  place-items: center;
-  text-align: center;
-}
-
-.project-start__eyebrow {
-  margin-bottom: var(--space-sm);
-  color: var(--color-accent);
-  font-size: 0.875rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.project-start h1 {
-  margin-bottom: var(--space-md);
-  font-size: clamp(2rem, 6vw, 4rem);
-  line-height: 1;
-}
-
-.project-start__description {
-  color: rgb(255 255 255 / 70%);
-}
-
-.site-footer {
-  padding-block: var(--space-lg);
-  border-top: 1px solid rgb(255 255 255 / 15%);
-  color: rgb(255 255 255 / 60%);
-  font-size: 0.875rem;
-  text-align: center;
-}*/
