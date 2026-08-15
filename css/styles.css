@@ -22,11 +22,14 @@ header{
 }
 
 .header__brand{
+    display: block;
     text-decoration: none;
-    color: #111111;
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 0.3rem;
+}
+
+.header__brand img{
+    display: block;
+    width: 180px;
+    height: auto;
 }
 
 header .container{
