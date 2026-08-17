@@ -26,6 +26,11 @@ header{
     text-decoration: none;
 }
 
+.header__brand:focus-visible{
+    outline: 2px solid #111111;
+    outline-offset: 4px;
+}
+
 .header__brand img{
     display: block;
     width: 180px;
@@ -51,10 +56,16 @@ header .container{
     font-weight: 500;
     letter-spacing: 0.02rem;
     transition: color 0.3s ease;
+    cursor: pointer;
 }
 
 .header__nav a:hover{
     color: #666666;
+}
+
+.header__nav a:focus-visible{
+    outline: 2px solid #111111;
+    outline-offset: 4px;
 }
 
 @media (max-width: 768px) {
