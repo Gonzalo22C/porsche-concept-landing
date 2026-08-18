@@ -68,6 +68,44 @@ header .container{
     outline-offset: 4px;
 }
 
+/* H E R O */
+
+.hero{
+    min-height: 70vh;
+}
+
+.hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__eyebrow{
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+}
+
+.hero__title{
+    max-width: 600px;
+    margin: 0;
+    font-size: clamp(3rem, 6vw, 6rem);
+    line-height: 0.95;
+}  
+
+.hero__description{
+    max-width: 500px;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.hero__cta {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
 @media (max-width: 768px) {
 
     header .container {
