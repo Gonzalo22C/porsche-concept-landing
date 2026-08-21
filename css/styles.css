@@ -72,12 +72,20 @@ header .container{
 
 .hero{
     min-height: 70vh;
+    padding: 3rem 0;
+
 }
 
 .hero .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 4rem;
+}
+
+.hero__content{
+    flex: 1;
+    max-width: 520px;
 }
 
 .hero__eyebrow{
@@ -121,6 +129,12 @@ header .container{
 .hero__cta:focus-visible{
     outline: 2px solid #111111;
     outline-offset: 4px;
+}
+
+.hero__media{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .hero__media img {

@@ -6,4 +6,25 @@
   .project-start {
     min-height: 70vh;
   }
+
+  .hero .container{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero__content{
+    max-width: 100%;
+}
+
+.hero__media{
+    width: 100%;
+}
+
+.hero__media img{
+    max-width: 100%;
+}
+
+.hero .container{
+    gap: 3rem;
+}
 }
