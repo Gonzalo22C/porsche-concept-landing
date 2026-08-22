@@ -71,7 +71,7 @@ header .container{
 /* H E R O */
 
 .hero{
-    min-height: 70vh;
+    min-height: 75vh;
     padding: 3rem 0;
 
 }
@@ -84,7 +84,7 @@ header .container{
 }
 
 .hero__content{
-    flex: 1;
+    flex: 0 1 45%;
     max-width: 520px;
 }
 
@@ -140,8 +140,14 @@ header .container{
 .hero__media img {
     display: block;
     width: 100%;
-    max-width: 600px;
+    max-width: 680px;
     height: auto;
+}
+
+.hero__content{
+    flex: 0 1 45%;
+    max-width: 520px;
+    transform: translateX(2rem);
 }
 
 @media (max-width: 768px) {
