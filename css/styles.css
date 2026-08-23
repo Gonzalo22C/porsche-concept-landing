@@ -71,24 +71,27 @@ header .container{
 /* H E R O */
 
 .hero{
-    min-height: 70vh;
+    min-height: 100svh;
     position: relative;
-
+    overflow: hidden;
 }
 
 .hero .container{
+    position: relative;
+    z-index: 1;
+    min-height: 100svh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 4rem;
 }
 
 .hero__content{
-    flex: 0 1 45%;
-    max-width: 520px;
+    /*flex: 0 1 45%;*/
+    max-width: 600px;
+    padding-top: 4re
 }
 
 .hero__eyebrow{
+    color: #ffffff;
     margin-bottom: 1rem;
     font-size: 0.75rem;
     letter-spacing: 0.15rem;
@@ -96,6 +99,7 @@ header .container{
 }
 
 .hero__title{
+    color: #ffffff;
     max-width: 600px;
     margin: 0;
     font-size: clamp(3rem, 6vw, 6rem);
@@ -103,6 +107,7 @@ header .container{
 }  
 
 .hero__description{
+    color: #ffffff;
     max-width: 500px;
     margin-top: 1.5rem;
     font-size: 1rem;
@@ -134,31 +139,22 @@ header .container{
 .hero__media{
     position: absolute;
     inset: 0;
+    z-index: 0;
 }
 
 .hero__media img {
-    /*display: block;*/
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
 }
 
-.hero__content{
+/*.hero__content{
     position: relative;
     z-index: 2;
-}
+}*/
 
-.hero__media::after{
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-        to right,
-        rgba(255,255,255,0.95) 0%,
-        rgba(255,255,255,0.65) 35%,
-        rgba(255,255,255,0) 70%
-    );
-}
+
 
 @media (max-width: 768px) {
 
