@@ -19,7 +19,7 @@ body{
 
 header{
   padding: 1.5rem 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -157,9 +157,35 @@ header .container{
 /*.hero__content{
     position: relative;
     z-index: 2;
-}*
+}*/
 
+/* M O D EL S */
 
+.models{
+    padding: 3rem 0;
+    background-color: #ffffff;
+}
+
+.models__eyebrow{
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+}
+
+.models__title{
+    max-width: 600px;
+    margin: 0;
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    line-height: 1;
+}
+
+.models__description{
+    max-width: 500px;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+}
 
 @media (max-width: 768px) {
 
