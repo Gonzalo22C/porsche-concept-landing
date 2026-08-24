@@ -19,6 +19,12 @@ body{
 
 header{
   padding: 1.5rem 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem 0;
+  z-index: 10;
 }
 
 .header__brand{
@@ -51,9 +57,10 @@ header .container{
 
 .header__nav a{
     text-decoration: none;
-    color: #111111;
-    font-size: 0.95rem;
+    color: #ffffff;
+    font-size: 1rem;
     font-weight: 500;
+    text-decoration: none;
     letter-spacing: 0.02rem;
     transition: color 0.3s ease;
     cursor: pointer;
@@ -86,20 +93,19 @@ header .container{
 
 .hero__content{
     /*flex: 0 1 45%;*/
+    color: #ffffff;
     max-width: 600px;
-    padding-top: 4re
+    transform: translateY(2rem);
 }
 
 .hero__eyebrow{
-    color: #ffffff;
-    margin-bottom: 1rem;
-    font-size: 0.75rem;
-    letter-spacing: 0.15rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18rem;
     text-transform: uppercase;
 }
 
 .hero__title{
-    color: #ffffff;
     max-width: 600px;
     margin: 0;
     font-size: clamp(3rem, 6vw, 6rem);
@@ -107,9 +113,8 @@ header .container{
 }  
 
 .hero__description{
-    color: #ffffff;
-    max-width: 500px;
-    margin-top: 1.5rem;
+    max-width: 400px;
+    margin-top: 1.75rem;
     font-size: 1rem;
     line-height: 1.6;
 }
@@ -152,7 +157,7 @@ header .container{
 /*.hero__content{
     position: relative;
     z-index: 2;
-}*/
+}*
 
 
 
