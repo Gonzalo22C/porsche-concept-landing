@@ -169,10 +169,10 @@ header .container{
     display: block;
 }
 
-/*.hero__content{
+.hero__content{
     position: relative;
     z-index: 2;
-}*/
+}
 
 /* M O D EL S */
 
@@ -200,6 +200,40 @@ header .container{
     margin-top: 1.5rem;
     font-size: 1rem;
     line-height: 1.6;
+}
+
+.models__grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.model-card{
+    min-height: 400px;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: column;
+    justify-content: flex-end;
+}
+
+.model-card__title{
+    margin: 0;
+    font-size: 2rem;
+}
+
+.model-card__media{
+    flex: 1;
+    width: 100%;
+}
+
+.model-card{
+    transition: transform 0.3s ease;
+}
+
+.model-card:hover{
+    transform: translateY(-4px);
 }
 
 @media (max-width: 768px) {
