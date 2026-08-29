@@ -313,6 +313,40 @@ header .container{
     color: #999999;
 }
 
+/* P E R F O M A N C E */
+
+.performance{
+    padding: 10rem 0;
+    background-color: #111111;
+    color: #ffffff;
+}
+
+.performance__content{
+    max-width: 700px;
+}
+
+.performance__eyebrow{
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+}
+
+.performance__title{
+    margin: 0;
+    font-size: clamp(3rem, 6vw, 6rem);
+    line-height: 0.95;
+}
+
+.performance__description{
+    max-width: 500px;
+    margin-top: 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #cccccc;
+    
+}
+
 @media (max-width: 768px) {
 
     header .container {
