@@ -346,6 +346,11 @@ header .container{
     letter-spacing: 0.3rem;
 }
 
+.footer__logo a:focus-visible{
+    outline: 2px solid #ffffff;
+    outline-offset: 4px;
+}
+
 .footer__description{
     margin-top: 1rem;
     font-size: 0.85rem;
