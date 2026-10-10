@@ -1,5 +1,24 @@
 "use strict";
 
+const header = document.querySelector("header");
+
+if (header) {
+  const scrollThreshold = 30;
+  let isScrolled = header.classList.contains("header--scrolled");
+
+  const updateHeader = () => {
+    const scrolled = window.scrollY >= scrollThreshold;
+    if (scrolled === isScrolled) return;
+
+    isScrolled = scrolled;
+    header.classList.toggle("header--scrolled", scrolled);
+  };
+
+  window.addEventListener("scroll", updateHeader, { passive: true });
+  window.addEventListener("pageshow", updateHeader);
+  updateHeader();
+}
+
 const backToTop = document.querySelector(".back-to-top");
 const footer = document.querySelector(".footer");
 
